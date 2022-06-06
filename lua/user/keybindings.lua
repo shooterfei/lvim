@@ -171,6 +171,7 @@ M.set_async_tasks_keymaps = function()
       name = " Run",
       f = { "<cmd>AsyncTask file-run<cr>", "File" },
       p = { "<cmd>AsyncTask project-run<cr>", "Project" },
+      t = { "<esc>:AsyncTask ", "Task"}
     }
   else
     lvim.builtin.which_key.mappings["m"] = "Make"
